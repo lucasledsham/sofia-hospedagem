@@ -1,10 +1,14 @@
 {
-  "name": "json-server-project",
+  "name": "meu-projeto",
   "version": "1.0.0",
+  "description": "Um exemplo de servidor Node.js",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch data/db.json --port 3000"
+    "start": "node server.js"
   },
   "dependencies": {
-    "json-server": "^0.17.0"
-  }
+    "express": "^4.17.1"
+  },
+  "author": "Seu Nome",
+  "license": "ISC"
 }
